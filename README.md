@@ -2,7 +2,7 @@
 Regularized Copula based Feature Selection- Application on Single cell RNA Sequence Data
 
 
-Load the dataset from **Data** folder, and put the codes and Datasets in same path.
+Load the dataset from **Data** folder, and put the codes and Datasets in same path. Muraro Data is in master branch in this github.
 Run the DataProcessing.R code. 
 Run the FeatureSelection.R in **R** folder. 
 
