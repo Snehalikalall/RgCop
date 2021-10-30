@@ -41,6 +41,7 @@ coeff=0.3
 fea[1,1]<-which.max(mimc1)
 for (m in 2:nf)
 {
+ print(paste("selected feaure = ", m))
   feas<-fea[1,1:(m-1)]
   parl<-foreach(j=count, .combine=c,.packages='copula') %dopar%
     { u1=pobs(cbind(datas2[,feas],datas2[,j]))
